@@ -1,0 +1,20 @@
+declare
+begin
+Htp.p('<input type= "button1" class="button button1" class="t-Icon t-Icon--right fa fa-print" id="print" type="button" onclick="printdiv(''div_print1'');" value="PRINT"/><br/>
+        <div id="div_print1" style="margin-top:50px;">');
+
+
+
+htp.p('<img style= "height:100px;" src="https://barcode.tec-it.com/barcode.ashx?data='|| :P46_NAME ||'  '|| :P2_BARCODE ||'" alt="barcode"/>&nbsp;&nbsp;&nbsp;&nbsp;');
+
+
+htp.p('
+  
+<div>');
+
+        
+
+
+htp.p('</div>');
+
+end ;
